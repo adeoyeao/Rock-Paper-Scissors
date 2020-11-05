@@ -1,0 +1,47 @@
+.rules {
+      position: absolute;
+      left: 5vw;
+      bottom: 2rem;
+
+      .normal,
+      .advanced {
+            position: fixed;
+            height: 100vh;
+            width: 100vw;
+            background-color: white;
+            top: 0;
+            left: 0;
+            z-index: 4;
+      }
+
+      .normal {
+            background-image: url("../../public/images/image-rules-primary.svg");
+            background-size: 90vmin;
+            background-position: center;
+            background-repeat: no-repeat;
+      }
+
+      .advanced {
+            background-image: url("../../public/images/image-rules-secondary.svg");
+            background-size: 90vmin;
+            background-position: center;
+            background-repeat: no-repeat;
+      }
+
+      button {
+            background: white;
+            z-index: 10;
+            padding: 1rem;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            appearance: none;
+            border: none;
+            outline: none;
+            border-radius: 0.5rem;
+            color: rgba(19,21,55,1);
+            font-weight: bold;
+            cursor: pointer;
+            border: 2px solid rgb(19, 21, 55)
+      }
+}

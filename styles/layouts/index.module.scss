@@ -1,0 +1,10 @@
+.index {
+      background: radial-gradient(ellipse at center, rgba(77,219,156,1) 0%, rgba(21,115,84,1) 100%);
+      width: 100vw;
+      min-height: 100vh;
+      display: grid;
+      padding: 4rem 5vw;
+      grid-template-rows: 1fr auto auto;
+      justify-items: center;
+      grid-gap: 2rem;
+}

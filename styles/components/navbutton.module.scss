@@ -1,0 +1,19 @@
+.navbutton {
+      color: white;
+      background: radial-gradient(ellipse at center, rgba(31,55,87,1) 0%, 
+      rgba(19,21,55,1) 100%);
+      padding: 1rem;
+      text-transform: capitalize;
+      text-decoration: none;
+      width: 100%;
+      max-width: 300px;
+      text-align: center;
+      border-radius: 0.5rem;
+      border: 2px solid transparent;
+
+      &:hover {
+            color: black;
+            background: rgba(31,55,87,0.5);
+            border: 2px solid black;
+      }
+}

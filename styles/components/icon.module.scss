@@ -1,0 +1,37 @@
+.icon--normal {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      cursor: pointer;
+      appearance: none;
+      outline: none;
+      border: none;
+      background-color: white;
+      box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4)
+}
+
+@media screen and (min-width: 700px) {
+      .icon--normal {
+            width: 200px;
+            height: 200px;
+      }
+}
+
+.icon--advanced {
+      width: 96px;
+      height: 96px;
+      border-radius: 50%;
+      cursor: pointer;
+      appearance: none;
+      outline: none;
+      border: none;
+      background-color: white;
+      box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4)
+}
+
+@media screen and (min-width: 700px) {
+      .icon--advanced {
+            width: 145px;
+            height: 145px;
+      }
+}

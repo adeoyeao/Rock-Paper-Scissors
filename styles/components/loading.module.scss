@@ -1,0 +1,38 @@
+.loading {
+      background: radial-gradient(ellipse at center, rgba(77,219,156,1) 0%, rgba(21,115,84,1) 100%);
+      width: 100vw;
+      height: 100vh;
+      display: grid;
+      align-items: center;
+      justify-items: center;
+      grid-template-rows: 1fr;
+      grid-template-columns: 1fr;
+      .outer {
+            height: 50vmin;
+            width: 50vmin;
+            border-radius: 50%;
+            border: 1rem solid grey;
+            border-top: 1rem solid #131537;
+            animation: spin 1.5s infinite;
+            grid-row: 1/2;
+            grid-column: 1/2;
+            z-index: 2;
+      }
+      .icon {
+            height: 50vmin;
+            width: 50vmin;
+            border-radius: 50%;
+            background-color: rgba(255, 255, 255, 0.5);
+            grid-row: 1/2;
+            grid-column: 1/2;
+      }
+}
+
+@keyframes spin {
+      0% {
+            transform: rotate(0deg)
+      }
+      100% {
+            transform: rotate(360deg)
+      }
+}

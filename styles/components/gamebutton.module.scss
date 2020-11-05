@@ -1,0 +1,20 @@
+.gamebutton {
+      color: white;
+      background: radial-gradient(ellipse at center, rgba(77,219,156,1) 0%, rgba(21,115,84,1) 100%);
+      padding: 1rem;
+      text-transform: capitalize;
+      text-decoration: none;
+      width: 100%;
+      max-width: 300px;
+      text-align: center;
+      border-radius: 0.5rem;
+      border: 2px solid transparent;
+      cursor: pointer;
+      appearance: none;
+      outline: none;
+      &:hover {
+            color: black;
+            background: rgba(21,115,84,0.5);
+            border: 2px solid black;
+      }
+}
